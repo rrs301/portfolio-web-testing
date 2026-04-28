@@ -10,6 +10,20 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Ocean theme tokens (Tailwind v4 CSS-first theme variables)
+     Usage: bg-ocean-900, text-ocean-50, etc. */
+  --color-ocean-50: oklch(0.98 0.02 220);
+  --color-ocean-100: oklch(0.95 0.03 220);
+  --color-ocean-200: oklch(0.9 0.045 220);
+  --color-ocean-300: oklch(0.83 0.06 220);
+  --color-ocean-400: oklch(0.74 0.08 220);
+  --color-ocean-500: oklch(0.63 0.09 225);
+  --color-ocean-600: oklch(0.51 0.085 230);
+  --color-ocean-700: oklch(0.4 0.07 235);
+  --color-ocean-800: oklch(0.3 0.055 240);
+  --color-ocean-900: oklch(0.22 0.04 245);
+  --color-ocean-950: oklch(0.16 0.03 250);
 }
 
 @media (prefers-color-scheme: dark) {
