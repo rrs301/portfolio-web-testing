@@ -100,7 +100,7 @@ export function ContactCTA() {
                                     key={link.label}
                                     href={link.href}
                                     target={link.href.startsWith("http") ? "_blank" : undefined}
-                                    rel={link.href.startsWith("http") ? "noreferrer" : undefined}
+                                    rel={link.href.startsWith("http") ? "noreferrer noopener" : undefined}
                                     aria-label={link.label}
                                     className="group inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/5 text-ocean-200 transition-colors hover:text-ocean-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ocean-300"
                                 >
