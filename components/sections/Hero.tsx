@@ -22,7 +22,7 @@ export function Hero() {
                     <div className="flex flex-col gap-7">
                         <div className="flex flex-col gap-4">
                             <p className="text-sm font-medium tracking-wide text-ocean-200">
-                                Ocean theme · Portfolio
+                                Tubeguruji Portfolio
                             </p>
                             <h1 className="text-4xl font-semibold leading-[1.05] tracking-tight text-ocean-50 sm:text-5xl lg:text-6xl">
                                 Building polished products with modern web tech.
