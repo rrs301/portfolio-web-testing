@@ -71,7 +71,7 @@ export function Hero() {
 
                             <div className="relative border-t border-white/10 bg-ocean-950/30 px-6 py-4">
                                 <p className="text-sm leading-6 text-ocean-200">
-                                    Placeholder visual — replace with your headshot or a product screenshot.
+                                    Placeholder visual —
                                 </p>
                             </div>
                         </div>
